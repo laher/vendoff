@@ -37,6 +37,6 @@ _Move _novendor back to vendor. Remove the 'skip-worktree' options from the vend
 ## Caveats
 
  * This works with git only.
- * This is intended to be used with tools like `godep`, `glide`, `govendor`, etc. Obviously don't try updating the vendor folder
+ * This is intended to be used with tools like `godep`, `glide`, `govendor`, etc. Obviously don't try running these tools while you have your dependencies in the _novendor folder.
  * I don't think it works with git submodules, but it might. YMMV.
  * Experimental, yada yada.
